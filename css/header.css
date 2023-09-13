@@ -1,0 +1,22 @@
+.header {
+  display: grid;
+  grid-template-columns: 216px 153px 757px 354px;
+  grid-auto-rows: 61px;
+  gap: 97px;
+}
+
+.header__item-logo {
+  background-image: url(/img/header/1920/logo.svg);
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.header__item-menu {
+}
+.header__item-search {
+}
+.header__item-profile {
+}
+.header__item-shopping {
+}
+.header__item-favorite {
+}

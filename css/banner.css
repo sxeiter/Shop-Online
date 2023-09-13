@@ -1,0 +1,10 @@
+.banner {
+  display: grid;
+  grid-template-columns: repeat(6, 245px);
+  grid-template-rows: repeat(2, 245px);
+  gap: 60px;
+}
+
+.banner__img {
+  background-image: url(/img/banner/banner-1920.png);
+}
