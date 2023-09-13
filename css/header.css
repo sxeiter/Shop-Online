@@ -1,4 +1,8 @@
 .header {
+  margin-top: 31px;
+}
+
+.header__list {
   display: grid;
   grid-template-columns: 216px 153px 757px 354px;
   grid-auto-rows: 61px;
@@ -7,16 +11,38 @@
 
 .header__item-logo {
   background-image: url(/img/header/1920/logo.svg);
+  background-repeat: no-repeat;
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .header__item-menu {
 }
+
+.menu {
+  width: 151px;
+  height: 54px;
+  top: 4px;
+  left: 313px;
+  border-radius: 10px;
+  background: #3670c7;
+  color: #fff;
+  background-image: url(/img/header/1920/menu.svg);
+  background-repeat: no-repeat;
+}
 .header__item-search {
+  background-image: url(/img/header/1920/search.svg);
+  background-repeat: no-repeat;
 }
 .header__item-profile {
+  background-image: url(/img/header/1920/profile.svg);
+  background-repeat: no-repeat;
 }
 .header__item-shopping {
+  background-image: url(/img/header/1920/basket.svg);
+  background-repeat: no-repeat;
 }
 .header__item-favorite {
+  background-image: url(/img/header/1920/favourite.svg);
+  background-repeat: no-repeat;
 }

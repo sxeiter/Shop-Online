@@ -8,14 +8,35 @@
   </head>
   <body>
     <header class="header">
-      <ul class="header__list">
-        <li class="header__item header__item-logo"></li>
-        <li class="header__item header__item-menu"></li>
-        <li class="header__item header__item-search"></li>
-        <li class="header__item header__item-profile"></li>
-        <li class="header__item header__item-shopping"></li>
-        <li class="header__item header__item-favorite"></li>
-      </ul>
+      <div class="container">
+        <ul class="header__list">
+          <li class="header__item header__item-logo"></li>
+          <li class="header__item header__item-menu">
+            <button class="menu">Menu</button>
+          </li>
+          <li class="header__item header__item-search">
+            <label for="">
+              <input type="search" name="" id="" placeholder="Я ищу..." />
+            </label>
+          </li>
+          <li class="header__item header__item-profile">
+            <p class="header__item-text">Профиль</p>
+          </li>
+          <li class="header__item header__item-shopping">
+            <p class="header__item-text">Корзина</p>
+          </li>
+          <li class="header__item header__item-favorite">
+            <p class="header__item-text">Избранное</p>
+          </li>
+          <li class="header__item">
+            <ul class="header__icon">
+              <li class="header__icon-list"></li>
+              <li class="header__icon-list"></li>
+              <li class="header__icon-list"></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main class="main">
