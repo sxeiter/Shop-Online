@@ -9,30 +9,38 @@
   <body>
     <header class="header">
       <div class="container">
-        <ul class="header__list">
+        <ul class="header__grid">
           <li class="header__item header__item-logo"></li>
           <li class="header__item header__item-menu">
-            <button class="menu">Menu</button>
+            <button class="header__btn-menu">Меню</button>
           </li>
           <li class="header__item header__item-search">
-            <label for="">
-              <input type="search" name="" id="" placeholder="Я ищу..." />
-            </label>
+            <div class="header__label-search">
+              <input
+                class="header__input-search"
+                type="search"
+                placeholder="Я ищу..."
+              />
+              <button class="header__btn-search"></button>
+            </div>
           </li>
-          <li class="header__item header__item-profile">
-            <p class="header__item-text">Профиль</p>
-          </li>
-          <li class="header__item header__item-shopping">
-            <p class="header__item-text">Корзина</p>
-          </li>
-          <li class="header__item header__item-favorite">
-            <p class="header__item-text">Избранное</p>
-          </li>
-          <li class="header__item">
-            <ul class="header__icon">
-              <li class="header__icon-list"></li>
-              <li class="header__icon-list"></li>
-              <li class="header__icon-list"></li>
+          <li class="header__item header__item-option">
+            <ul class="header__list-option option">
+              <li class="option__item">
+                <a href="" class="option__link option__link-profile">
+                  <span class="option__link-display-none">Профиль</span>
+                </a>
+              </li>
+              <li class="option__item">
+                <a href="" class="option__link option__link-shopping">
+                  <span class="option__link-display-none">Корзина</span>
+                </a>
+              </li>
+              <li class="option__item">
+                <a href="" class="option__link option__link-favorite">
+                  <span class="option__link-display-none">Избранное</span>
+                </a>
+              </li>
             </ul>
           </li>
         </ul>
@@ -43,17 +51,71 @@
       <div class="container">
         <div class="galery">
           <ul class="galery__list">
-            <li class="galery__item galery__item-1"></li>
+            <li class="galery__item galery__item-1">
+              <div class="galery__2022-box">
+                <p class="galery__2022-text">Новогодние украшения</p>
+              </div>
+            </li>
             <li class="galery__item galery__item-2"></li>
-            <li class="galery__item galery__item-3"></li>
-            <li class="galery__item galery__item-4"></li>
-            <li class="galery__item galery__item-5"></li>
-            <li class="galery__item galery__item-6"></li>
-            <li class="galery__item galery__item-7"></li>
-            <li class="galery__item galery__item-8"></li>
-            <li class="galery__item galery__item-9"></li>
-            <li class="galery__item galery__item-10"></li>
-            <li class="galery__item galery__item-11"></li>
+            <li class="galery__item galery__item-3">
+              <p class="galery__book-text">
+                Книга
+                <span
+                  class="galery__book-text-small galery__book-text-small-simbol"
+                  >–</span
+                >
+                <span
+                  class="galery__book-text-small galery__book-text-small-bottom"
+                  >лучший подарок</span
+                >
+              </p>
+            </li>
+            <li class="galery__item galery__item-4">
+              <p class="galery__computer-text">Выгодно в декабре!</p>
+              <div
+                class="galery__discount galery__discount-computer-transf-transl"
+              >
+                <p class="galery__discount-text">-15%</p>
+              </div>
+            </li>
+            <li class="galery__item galery__item-5">
+              <p class="galery__boxes-text">Идеи новогодних подарков</p>
+            </li>
+            <li class="galery__item galery__item-6">
+              <div class="galery__discount galery__discount-dress-align-self">
+                <p class="galery__discount-text">-55%</p>
+              </div>
+            </li>
+            <li class="galery__item galery__item-7">
+              <div class="galery__discount">
+                <p class="galery__discount-text">-40%</p>
+              </div>
+            </li>
+            <li class="galery__item galery__item-8">
+              <div class="galery__white-runing-box">
+                <p class="galery__white-runing-text">
+                  Вторая пара кроссовок
+                  <span class="galery__white-runing-text-big">в подарок!</span>
+                </p>
+              </div>
+            </li>
+            <li class="galery__item galery__item-9">
+              <div
+                class="galery__discount galery__discount-spray-margin-bottom"
+              >
+                <p class="galery__discount-text">-25%</p>
+              </div>
+              <p class="galery__spray-text">На бытовую химию</p>
+            </li>
+            <li class="galery__item galery__item-10">
+              <p class="galery__watch-text">Время скидок!</p>
+              <div class="galery__discount galery__discount-watch-flex-end">
+                <p class="galery__discount-text">-25%</p>
+              </div>
+            </li>
+            <li class="galery__item galery__item-11">
+              <h1 class="banner__title">-50% на все ноутбуки</h1>
+            </li>
           </ul>
         </div>
       </div>
