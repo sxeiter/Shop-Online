@@ -732,7 +732,25 @@
     grid-row: 6 / 8;
     width: 280px;
     height: 280px;
+    width: 300px;
   }
+
+  .galery__white-runing-text {
+    font-size: 12px;
+    font-weight: 400;
+    width: 260px;
+    height: 36px;
+  }
+
+  .galery__white-runing-text-big {
+    color: var(--1, #fff);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
   .galery__item-9 {
     background-image: url(/img/content/spray.jpg);
     grid-column: 2 / 3;
@@ -755,5 +773,14 @@
     grid-row: 1 / 4;
     width: 280px;
     height: 340px;
+  }
+
+  .banner__title {
+    padding: 0;
+    color: #fff;
+    font-size: 22px;
+    width: 222px;
+    height: 29px;
+    margin: 50px 29px;
   }
 }
