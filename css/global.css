@@ -104,3 +104,11 @@ fieldset {
 input {
   outline: none;
 }
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 42px;
+    margin: 0 auto;
+  }
+}
