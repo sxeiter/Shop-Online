@@ -140,17 +140,16 @@
   height: 178px;
   background-color: #38c0eb;
   border-radius: 20px;
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
+  align-self: flex-end;
+  margin: 20px;
 }
 
 .galery__white-runing-text {
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 30px;
+  bottom: 30px;
 }
 
 .galery__white-runing-text-big {
