@@ -148,15 +148,16 @@
   font-size: 40px;
   font-weight: 400;
   position: absolute;
-  left: 30px;
-  bottom: 30px;
+  left: 40px;
+  bottom: 50px;
+  line-height: 120%;
 }
 
 .galery__white-runing-text-big {
   display: inline-block;
-  font-size: 50px;
-  font-weight: 900;
-  letter-spacing: 3px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .galery__item-9 {
@@ -239,6 +240,50 @@
 
 .galery__discount-text {
   color: #fff;
+}
+@media (max-width: 1500px) {
+  .galery__list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 245px;
+    gap: 40px;
+    color: #fff;
+  }
+  .galery__white-runing-text,
+  .galery__watch-text,
+  .galery__boxes-text,
+  .galery__computer-text,
+  .galery__spray-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .galery__list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 225px;
+    gap: 30px;
+    color: #fff;
+  }
+  .galery__white-runing-text,
+  .galery__watch-text,
+  .galery__boxes-text,
+  .galery__computer-text,
+  .galery__spray-text {
+    font-size: 20px;
+    text-align: left;
+  }
+  .galery__white-runing-text-big {
+    font-size: 40px;
+  }
+  .galery__2022-box {
+    width: 500px;
+    height: 80px;
+  }
+  .galery__2022-text {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -444,6 +489,51 @@
   }
 }
 
+@media (max-width: 830px) {
+  .galery__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 150px);
+    gap: 20px;
+    color: #fff;
+  }
+  .galery__white-runing-box {
+    width: 318px;
+    height: 108px;
+    margin: 15px;
+  }
+  .galery__white-runing-text {
+    font-size: 20px;
+    bottom: 33px;
+  }
+  .galery__book-text {
+    font-size: 20px;
+  }
+  .galery__book-text-small,
+  .galery__book-text-small-bottom {
+    font-size: 26px;
+  }
+  .galery__watch-text {
+    font-size: 20px;
+    top: 30px;
+  }
+  .galery__spray-text {
+    font-size: 20px;
+    width: 170px;
+  }
+  .galery__computer-text {
+    font-size: 20px;
+  }
+  .galery__discount {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+  .galery__boxes-text {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .galery__list {
     display: grid;
@@ -474,6 +564,9 @@
     background-color: #ffffff;
     color: #f91155;
     border-radius: 20px;
+  }
+  .galery__2022-text {
+    font-size: 20px;
   }
 
   .galery__item-2 {
