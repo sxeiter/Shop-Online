@@ -214,9 +214,10 @@
   }
 
   .header__btn-menu {
+    width: 115px;
     height: 42px;
-    padding-top: 2px;
-    padding-left: 23px;
+    padding-top: 7px;
+    padding-left: 25px;
     font-size: 16px;
     line-height: 150%;
     border-radius: 6px;
@@ -233,8 +234,11 @@
 
   .header__btn-menu:before {
     position: absolute;
-    bottom: 13px;
-    left: 15px;
+    left: 10px;
+    bottom: 20px;
+    background-image: url(/img/header/sort768.svg);
+    width: 30px;
+    height: 30px;
   }
 
   .header__label-search {
@@ -263,13 +267,39 @@
     font-size: 12px;
     line-height: 130%;
     color: #2d2d2d;
-    gap: 10px;
+    gap: 20px;
+  }
+  .option__link-profile:before {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/header/person768.svg);
+    transform: translateY(-4px);
+  }
+
+  .option__link-shopping:before {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/header/basket768.svg);
+    transform: translateY(-4px);
+  }
+
+  .option__link-favorite:before {
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/header/favorite768.svg);
+    transform: translateY(-4px);
+  }
+
+  .header__btn-search:after {
+    background-image: url(/img/header/search768.svg);
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media (max-width: 480px) {
   .header__grid {
-    grid-template-columns: repeat(2, minmax(80px, 130px));
+    grid-template-columns: repeat(2, minmax(80px, 240px));
     grid-template-rows: 40px 30px 30px;
     gap: 20px;
   }
@@ -297,9 +327,9 @@
   }
 
   .header__btn-menu:before {
-    width: 14px;
-    height: 14px;
-    transform: translate(0, 5px);
+    width: 20px;
+    height: 17px;
+    background-image: url(/img/header/sort320.svg);
   }
 
   .header__item-search {
@@ -324,10 +354,9 @@
 
   .header__btn-search:after {
     content: "";
-    width: 30px;
-    height: 30px;
-    background-image: url(/img/header/search.svg);
-    transform: translateY(-4px);
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/header/search320.svg);
   }
 
   .header__item-option {

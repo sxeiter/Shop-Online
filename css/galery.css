@@ -248,6 +248,10 @@
     gap: 24px;
   }
 
+  .galery__item {
+    border-radius: 16px;
+  }
+
   .galery__item-1 {
     background-image: url(/img/content/2022.jpg);
     grid-column: 1 / 5;
@@ -721,7 +725,11 @@
     grid-template-rows: repeat(12, auto);
     gap: 20px;
     color: var(--main-color);
-    max-width: 280px;
+    max-width: 480px;
+  }
+
+  .galery__item {
+    border-radius: 8px;
   }
 
   .galery__item-1 {

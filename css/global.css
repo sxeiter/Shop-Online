@@ -121,9 +121,9 @@ input {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .container {
-    max-width: 320px;
+    max-width: 480px;
     padding: 0 20px;
     margin: 0 auto;
   }
