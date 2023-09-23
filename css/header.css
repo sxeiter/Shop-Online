@@ -88,11 +88,12 @@
 
 .header__list-option {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   font-weight: 700;
   font-size: 16px;
   line-height: 130%;
   color: #2d2d2d;
+  gap: 11%;
 }
 
 .option__link-profile:before {

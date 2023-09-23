@@ -191,7 +191,7 @@
   position: relative;
 }
 
-.banner__title {
+.galery__title {
   color: var(--main-color);
   font-size: 70px;
   max-width: 705px;
@@ -382,7 +382,7 @@
     position: relative;
   }
 
-  .banner__title {
+  .galery__title {
     font-size: 40px;
     position: absolute;
     max-width: 390px;
@@ -537,7 +537,7 @@
     grid-row: 1 / 2;
   }
 
-  .banner__title {
+  .galery__title {
     font-size: 30px;
   }
 
@@ -866,7 +866,7 @@
     height: 340px;
   }
 
-  .banner__title {
+  .galery__title {
     padding: 0;
     font-size: 22px;
     max-width: 222px;
