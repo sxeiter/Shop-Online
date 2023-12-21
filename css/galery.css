@@ -216,6 +216,38 @@
   color: var(--main-color);
 }
 
+.galery__timer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 104px;
+  position: absolute;
+  left: 480px;
+  top: 336px;
+}
+
+.galery__subtitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+}
+
+.galery__counter {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.galery__text {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
 @media (max-width: 1366px) {
   .galery__list {
     display: grid;
@@ -237,6 +269,24 @@
 
   .galery__2022-text {
     font-size: 30px;
+  }
+
+  .galery__timer {
+    height: 90px;
+    left: 400px;
+    top: 336px;
+  }
+
+  .galery__subtitle {
+    font-size: 16px;
+  }
+
+  .galery__counter {
+    font-size: 40px;
+  }
+
+  .galery__text {
+    font-size: 20px;
   }
 }
 
@@ -388,6 +438,24 @@
     max-width: 390px;
     top: 80px;
     left: 80px;
+  }
+
+  .galery__timer {
+    height: 90px;
+    left: 300px;
+    top: 296px;
+  }
+
+  .galery__subtitle {
+    font-size: 16px;
+  }
+
+  .galery__counter {
+    font-size: 40px;
+  }
+
+  .galery__text {
+    font-size: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -552,172 +620,26 @@
     border-radius: 50%;
     margin: 10px;
   }
-}
 
-/*@media (max-width: 768px) {
-  .galery__list {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(100px, 220px));
-    grid-template-rows: repeat(8, 140px);
-    gap: 20px;
-  }
-
-  .galery__item-1 {
-    background-image: url(/img/content/2022.jpg);
-    grid-column: 1 / 5;
-    grid-row: 7 / 9;
-    position: relative;
-  }
-
-  .galery__2022-text {
-    font-size: 20px;
-    padding: 33px 22px;
-  }
-
-  .galery__item-2 {
-    background-image: url(/img/content/balls.jpg);
-    grid-column: 4 / 5;
-    grid-row: 5 / 6;
+  .galery__timer {
     height: 60px;
-    align-self: flex-end;
-  }
-  .galery__item-3 {
-    background-image: url(/img/content/book.jpg);
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    left: 200px;
+    top: 180px;
   }
 
-  .galery__book-text {
-    max-width: 126px;
-    font-size: 26px;
-    left: 10px;
-    bottom: 15px;
+  .galery__subtitle {
+    font-size: 12px;
   }
 
-  .galery__book-text-small {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 400;
-  }
-
-  .galery__item-4 {
-    background-image: url(/img/content/nb.jpg);
-    grid-column: 1 / 3;
-    grid-row: 6 / 7;
-  }
-
-  .galery__computer-text {
-    font-size: 16px;
-    max-width: 149px;
-  }
-
-  .galery__discount-computer {
-    align-self: flex-end;
-  }
-
-  .galery__item-5 {
-    background-image: url(/img/content/boxes.jpg);
-    grid-column: 1 / 3;
-    grid-row: 5 / 6;
-  }
-
-  .galery__boxes-text {
-    align-self: flex-end;
-    max-width: 136px;
-    height: 38px;
-    font-size: 16px;
-  }
-
-  .galery__item-6 {
-    background-image: url(/img/content/red-dress.jpg);
-    grid-column: 3 / 4;
-    grid-row: 5 / 7;
-    height: 220px;
-    align-self: self-end;
-  }
-
-  .galery__discount-dress-align-self {
-    align-self: flex-end;
-  }
-
-  .galery__item-7 {
-    background-image: url(/img/content/red-sneakers.jpg);
-    grid-column: 1 / 3;
-    grid-row: 4 / 5;
-  }
-  .galery__item-8 {
-    background-image: url(/img/content/sneakers.jpg);
-    grid-column: 3 / 5;
-    grid-row: 3 / 5;
-    height: 380px;
-  }
-
-  .galery__white-runing-text {
-    font-size: 16px;
-    font-weight: 400;
-  }
-
-  .galery__white-runing-text-big {
-    font-size: 26px;
-  }
-
-  .galery__item-9 {
-    background-image: url(/img/content/spray.jpg);
-    grid-column: 4 / 5;
-    grid-row: 6 / 7;
-  }
-
-  .galery__spray-text {
-    font-size: 16px;
-    align-self: flex-end;
-    max-width: 100px;
-  }
-
-  .galery__discount-spray-margin-bottom {
-    margin-bottom: 39px;
-  }
-
-  .galery__item-10 {
-    background-image: url(/img/content/watch.jpg);
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-  }
-
-  .galery__watch-text {
-    font-size: 16px;
-    top: 15px;
-    left: 5px;
-  }
-
-  .galery__discount-watch-flex-end {
-    align-self: flex-end;
-  }
-
-  .galery__item-11 {
-    background-image: url(/img/content/banner.jpg);
-    background-repeat: no-repeat;
-    grid-column: 1 / -1;
-    grid-row: 1 / 3;
-    height: 280px;
-  }
-
-  .banner__title {
+  .galery__counter {
     font-size: 30px;
   }
 
-  .galery__discount {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
+  .galery__text {
     font-size: 16px;
-    background-color: var(--sale-color);
-    border-radius: 50%;
-    margin: 10px;
   }
 }
-*/
+
 @media (max-width: 480px) {
   .galery__list {
     display: grid;
@@ -872,5 +794,23 @@
     max-width: 222px;
     left: 29px;
     top: 50px;
+  }
+
+  .galery__timer {
+    height: 40px;
+    left: 25%;
+    top: 240px;
+  }
+
+  .galery__subtitle {
+    font-size: 8px;
+  }
+
+  .galery__counter {
+    font-size: 20px;
+  }
+
+  .galery__text {
+    font-size: 12px;
   }
 }
